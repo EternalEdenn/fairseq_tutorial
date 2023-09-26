@@ -5,14 +5,11 @@
 - for example:
 
   aspec_dev.tkn.en
-  
   aspec_dev.tkn.ja
   
   aspec_test.tkn.en
-  
   aspec_test.tkn.ja
   
   aspec_train.tkn.en
-  
   aspec_train.tkn.ja
   
