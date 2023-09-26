@@ -1,6 +1,6 @@
 # fairseq_tutorial
 ## Create the container(Usturo lab):
-Please follow the steps of [銭本：Python環境構築勉強会]([https://pytorch.org/get-started/previous-versions/](http://nlp.iit.tsukuba.ac.jp/local/wiki/index.php?%C1%AC%CB%DC%A1%A7Python%B4%C4%B6%AD%B9%BD%C3%DB%CA%D9%B6%AF%B2%F1)) to create your container. 
+Please follow the steps of [銭本：Python環境構築勉強会](http://nlp.iit.tsukuba.ac.jp/local/wiki/index.php?%C1%AC%CB%DC%A1%A7Python%B4%C4%B6%AD%B9%BD%C3%DB%CA%D9%B6%AF%B2%F1) to create your container. 
 You need to follow these steps at least until the setup of git is complete.
 
 ## If you do not have conda env, please follow the next steps to create it:
