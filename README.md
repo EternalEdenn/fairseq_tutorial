@@ -27,6 +27,8 @@ Create the conda env:
 ```
 conda create -n fairseq python==3.8.5
 conda activate fairseq                 # activate the env(if you want to exit the current env, please run: conda deactivate)
+pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install sacrebleu[ja]              # for evaluation of Aspec en-ja dataset
 ```
 Download fairseq:
 ```
@@ -35,4 +37,20 @@ tar -xzvf v0.10.1.tar.gz
 rm v0.10.1.tar.gz
 cd cd fairseq-0.10.1
 pip install --editable ./
+cd ..
+```
+Error may happen:
+In numpy 1.24.4, np.float have been no longer used. So we need to change some places of fairseq codes.
+```
+# open the fairseq-0.10.1/fairseq/data/indexed_dataset.py file
+# exchage all the "np.float" into "np.float64" (I see it is in 101 and 306 lines.)
+```
+
+Do the data preprocess:
+```
+cd fairseq_tutorial/scripts
+sh 01.dataprocess.sh
+sh 02.train_fairseq.sh (Or you use "nohup sh 02.train_fairseq.sh &" to let it run in background)
+sh 03.prediction.sh
+sh 04.eval_test.sh
 ```
