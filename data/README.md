@@ -3,7 +3,7 @@
 * It should include Train, Valid and Test
 * "lang" should be put in the end of the file name
   
--- for example:
+for example:
   
   aspec_dev.tkn.en
   
