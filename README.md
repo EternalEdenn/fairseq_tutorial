@@ -46,7 +46,7 @@ In numpy 1.24.4, np.float have been no longer used. So we need to change some pl
 # exchage all the "np.float" into "np.float64" (I see it is in 101 and 306 lines.)
 ```
 
-Do the data preprocess:
+Run the code of fairseq:
 ```
 cd fairseq_tutorial/scripts
 sh 01.dataprocess.sh
