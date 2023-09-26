@@ -48,6 +48,7 @@ In numpy 1.24.4, np.float have been no longer used. So we need to change some pl
 
 Run the code of fairseq:
 ```
+git clone https://github.com/EternalEdenn/fairseq_tutorial.git
 cd fairseq_tutorial/scripts
 sh 01.dataprocess.sh
 sh 02.train_fairseq.sh (Or you use "nohup sh 02.train_fairseq.sh &" to let it run in background)
