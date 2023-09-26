@@ -6,5 +6,4 @@
 for example:
   
   aspec_dev.tkn.en
-  
   aspec_dev.tkn.ja
