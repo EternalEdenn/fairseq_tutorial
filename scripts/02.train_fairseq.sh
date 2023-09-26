@@ -12,10 +12,10 @@ export MKL_THREADING_LAYER=GNU
 fairseq-train  $DATADIR\
   --arch transformer \
   --batch-size 16 --update-freq 3 \
-  --max-epoch 1 \
+  --max-epoch 20 \
   --save-interval 1 \
   --optimizer adam --adam-eps 1e-09 --adam-betas '(0.9, 0.98)' \
-  --dropout 0.1 --attention-dropout 0.1 --weight-decay 0.0 \
+  --dropout 0.3 --attention-dropout 0.1 --weight-decay 0.0 \
   --lr-scheduler inverse_sqrt --lr 3e-03 --warmup-updates 6000 \
   --criterion cross_entropy \
   --save-dir $MODELDIR \
