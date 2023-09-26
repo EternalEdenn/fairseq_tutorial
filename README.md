@@ -55,3 +55,4 @@ sh 02.train_fairseq.sh (Or you use "nohup sh 02.train_fairseq.sh &" to let it ru
 sh 03.prediction.sh
 sh 04.eval_test.sh
 ```
+Know more information of fairseq's hyper-paramaters in https://fairseq.readthedocs.io/en/v0.10.2/command_line_tools.html
