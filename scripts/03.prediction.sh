@@ -15,7 +15,7 @@ fairseq-generate $DATAPATH \
     --source-lang en --target-lang ja \
     --lenpen 0.8 --max-len-a 1.2 --max-len-b 10 \
     --gen-subset test \
-    --beam 5 \
+    --beam 1 \
     --batch-size 32 \
     --remove-bpe \
     --max-source-positions 1024 \
