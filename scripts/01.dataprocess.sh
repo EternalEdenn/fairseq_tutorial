@@ -8,7 +8,6 @@ fairseq-preprocess \
     --trainpref $DIR/aspec_train_h100k.tkn\
     --validpref $DIR/aspec_dev.tkn \
     --testpref $DIR/aspec_test.tkn \
-    --bpe subword_nmt \
     --destdir $DIR/data-bin \
     --thresholdtgt 0 \
     --thresholdsrc 0 \
